@@ -27,7 +27,7 @@ jobs:
       matrix:
         rabbitmq_version: ['alpine', 'management-alpine']
     steps:
-      - uses: e1himself/goss-installation-action@v1.0.4
+      - uses: e1himself/goss-installation-action@v1.1.0
 
       - name: Checkout
         uses: actions/checkout@v3.1.0
