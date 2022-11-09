@@ -20,7 +20,7 @@ RUN set -eux; \
     rm -rf /var/cache/apk/* \
     && rm -rf /tmp/* \
     && apk -U upgrade -a \
-    && apk add --update --no-cache --virtual .build-deps \
+    && apk add --update --no-cache \
       curl \
       unzip \
     && curl -L -o ./rabbitmq_delayed_message_exchange.zip "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/download/3.11.1/rabbitmq_delayed_message_exchange-3.11.1.ez" \

@@ -20,7 +20,7 @@ RUN set -eux; \
     rm -rf /var/cache/apk/* \
     && rm -rf /tmp/* \
     && apk -U upgrade -a \
-    && apk add --update --no-cache --virtual .build-deps \
+    && apk add --update --no-cache \
       curl \
       unzip \
 {% if true == ext_delayed_message_exchange %}
