@@ -54,18 +54,18 @@ PHONY: all
 build: ## Build default docker image
 	cd $(CURRENT_DIR)$(DOCKERFILE_DIR); \
 	docker buildx build \
-		--platform linux/arm64 \
+		--platform linux/arm64,linux/amd64 \
 		--tag $(IMAGE_TAG) \
-		--load .
+		--push .
 PHONY: build
 
 build-from-cache: ## Build default docker image using cached layers
 	cd $(CURRENT_DIR)$(DOCKERFILE_DIR); \
 	docker buildx build \
-		--platform linux/arm64 \
+		--platform linux/arm64,linux/amd64 \
 		--tag $(IMAGE_TAG) \
 		--cache-from $(CACHE_FROM) \
-		--load .
+		--push .
 PHONY: build-from-cache
 
 test: ## Run dgoss tests over docker images
