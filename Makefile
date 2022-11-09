@@ -1,6 +1,6 @@
 export DOCKER_BUILDKIT ?= 1
 IMAGE_NAMESPACE ?= wayofdev/rabbitmq
-TEMPLATE ?= alpine
+TEMPLATE ?= management-alpine
 
 IMAGE_TAG ?= $(IMAGE_NAMESPACE):$(TEMPLATE)-latest
 DOCKERFILE_DIR ?= ./dist/$(TEMPLATE)
