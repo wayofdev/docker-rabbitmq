@@ -12,7 +12,7 @@
 <div align="center">
 <a href="https://actions-badge.atrox.dev/wayofdev/docker-rabbitmq/goto"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fwayofdev%2Fdocker-rabbitmq%2Fbadge&style=flat-square"/></a>
 <a href="https://github.com/wayofdev/docker-rabbitmq/tags"><img src="https://img.shields.io/github/v/tag/wayofdev/docker-rabbitmq?sort=semver&style=flat-square" alt="Latest Version"></a>
-<a href="https://hub.docker.com/repository/docker/wayofdev/postgres"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/wayofdev/postgres?style=flat-square"></a>
+<a href="https://hub.docker.com/repository/docker/wayofdev/rabbitmq"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/wayofdev/rabbitmq?style=flat-square"></a>
 <a href="LICENSE.md"><img src="https://img.shields.io/github/license/wayofdev/docker-rabbitmq.svg?style=flat-square&color=blue" alt="Software License"/></a>
 <a href="#"><img alt="Commits since latest release" src="https://img.shields.io/github/commits-since/wayofdev/docker-rabbitmq/latest?style=flat-square"></a>
 </div>
@@ -115,7 +115,7 @@ $ make hadolint
 
 ## 🤝 License
 
-[![Licence](https://img.shields.io/github/license/wayofdev/docker-postgres?style=for-the-badge&color=blue)](./LICENSE)
+[![Licence](https://img.shields.io/github/license/wayofdev/docker-rabbitmq?style=for-the-badge&color=blue)](./LICENSE)
 
 <br>
 
@@ -127,7 +127,7 @@ This repository was created in **2022** by [lotyp / wayofdev](https://github.com
 
 ## 🫡 Contributors
 
-<img align="left" src="https://img.shields.io/github/contributors-anon/wayofdev/docker-postgres?style=for-the-badge"/>
+<img align="left" src="https://img.shields.io/github/contributors-anon/wayofdev/docker-rabbitmq?style=for-the-badge"/>
 
 <a href="https://github.com/wayofdev/docker-rabbitmq/graphs/contributors">
   <img src="https://opencollective.com/wod/contributors.svg?width=890&button=false">
