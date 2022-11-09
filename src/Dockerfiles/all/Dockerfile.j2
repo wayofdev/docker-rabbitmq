@@ -23,6 +23,7 @@ RUN set -eux; \
     && apk add --update --no-cache \
       curl \
       unzip \
+      erlang \
 {% if true == ext_delayed_message_exchange %}
     && curl -L -o ./rabbitmq_delayed_message_exchange.zip "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/download/{{ ext_versions.delayed_message_exchange }}/rabbitmq_delayed_message_exchange-{{ ext_versions.delayed_message_exchange }}.ez" \
         && unzip rabbitmq_delayed_message_exchange.zip \
@@ -49,4 +50,5 @@ RUN set -eux; \
     && apk del -f \
         .build-deps \
         curl \
-        unzip
+        unzip \
+        erlang
