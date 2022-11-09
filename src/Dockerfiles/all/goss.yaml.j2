@@ -1,0 +1,34 @@
+---
+
+group:
+  rabbitmq:
+    exists: true
+
+user:
+  rabbitmq:
+    exists: true
+    groups:
+      - rabbitmq
+
+command:
+  "rabbitmq-plugins list --implicitly-enabled":
+    stdout:
+{% if true == ext_amqp1_0 %}
+      - rabbitmq_amqp1_0
+{% endif %}
+{% if true == ext_shovel %}
+      - rabbitmq_shovel
+{% endif %}
+{% if true == ext_delayed_message_exchange %}
+      - rabbitmq_delayed_message_exchange
+{% endif %}
+{% if true == ext_message_timestamp %}
+      - rabbitmq_message_timestamp
+{% endif %}
+{% if 'management-alpine' == rabbitmq_image_type %}
+      - rabbitmq_management
+      - rabbitmq_management_agent
+{% endif %}
+    exit-status: 0
+
+...

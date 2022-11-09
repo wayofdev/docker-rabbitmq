@@ -1,0 +1,49 @@
+---
+
+# Ansible specific definitions
+########################################################################################################################
+edit_comment: "# Auto-generated via Ansible: edit src/Dockerfiles/all/Dockerfile.j2 instead."
+
+
+# Variables
+########################################################################################################################
+# rabbitmq_version: "mainline-alpine"
+
+
+# Dist directories
+########################################################################################################################
+tpl_directories:
+  - path: "../dist/{{ rabbitmq_image_type }}/configs"
+
+
+# Dockerfile paths
+########################################################################################################################
+tpl_dockerfiles:
+  - src: Dockerfiles/all/Dockerfile.j2
+    dst: "../dist/{{ rabbitmq_image_type }}/Dockerfile"
+
+
+# Dgoss tests
+########################################################################################################################
+tpl_docker_tests:
+  - src: Dockerfiles/all/goss.yaml.j2
+    dst: "../dist/{{ rabbitmq_image_type }}/goss.yaml"
+  - src: Dockerfiles/all/goss_wait.yaml
+    dst: "../dist/{{ rabbitmq_image_type }}/goss_wait.yaml"
+
+# Enabled extensions
+########################################################################################################################
+ext_delayed_message_exchange: true
+ext_message_timestamp: true
+
+# https://github.com/rabbitmq/rabbitmq-server/blob/main/deps/rabbitmq_amqp1_0/README.md
+ext_amqp1_0: true
+
+# https://www.rabbitmq.com/shovel.html
+ext_shovel: true
+
+ext_versions:
+  delayed_message_exchange: 3.11.1
+  message_timestamp: 3.11.1
+
+...

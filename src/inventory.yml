@@ -1,0 +1,18 @@
+---
+
+all:
+  children:
+    base:
+      hosts:
+        alpine-management:
+          ansible_connection: local
+          rabbitmq_version: 3.11
+          rabbitmq_image_type: management-alpine
+          os_name: alpine
+        alpine:
+          ansible_connection: local
+          rabbitmq_version: 3.11
+          rabbitmq_image_type: alpine
+          os_name: alpine
+
+...

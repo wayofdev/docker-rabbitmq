@@ -1,0 +1,22 @@
+---
+
+group:
+  rabbitmq:
+    exists: true
+
+user:
+  rabbitmq:
+    exists: true
+    groups:
+      - rabbitmq
+
+command:
+  "rabbitmq-plugins list --implicitly-enabled":
+    stdout:
+      - rabbitmq_amqp1_0
+      - rabbitmq_shovel
+      - rabbitmq_delayed_message_exchange
+      - rabbitmq_message_timestamp
+    exit-status: 0
+
+...
