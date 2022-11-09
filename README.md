@@ -129,7 +129,7 @@ This repository was created in **2022** by [lotyp / wayofdev](https://github.com
 
 <img align="left" src="https://img.shields.io/github/contributors-anon/wayofdev/docker-postgres?style=for-the-badge"/>
 
-<a href="https://github.com/wayofdev/docker-nginx/graphs/contributors">
+<a href="https://github.com/wayofdev/docker-rabbitmq/graphs/contributors">
   <img src="https://opencollective.com/wod/contributors.svg?width=890&button=false">
 </a>
 
