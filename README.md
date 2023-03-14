@@ -102,13 +102,13 @@ $ make test TEMPLATE="management-alpine"
 Run **yamllint** to validate all yaml files in project:
 
 ```bash
-$ make lint
+$ make lint-yaml
 ```
 
 Run hadolint to validate created Dockerfiles:
 
 ```bash
-$ make hadolint
+$ make lint-docker
 ```
 
 <br>
@@ -134,4 +134,3 @@ This repository was created in **2022** by [lotyp / wayofdev](https://github.com
 </a>
 
 <br>
-
