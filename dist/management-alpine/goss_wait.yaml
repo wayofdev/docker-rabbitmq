@@ -1,7 +1,0 @@
----
-
-process:
-  rabbitmq-server:
-    running: true
-
-...
