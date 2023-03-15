@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/wayofdev/docker-rabbitmq/compare/v1.1.2...v1.1.3) (2023-03-15)
+
+
+### Bug Fixes
+
+* move versions into Dockerfile ([6e32cec](https://github.com/wayofdev/docker-rabbitmq/commit/6e32cec137376897cd9720a6f76aff701c5aeb1c))
+
 ## [1.1.2](https://github.com/wayofdev/docker-rabbitmq/compare/v1.1.1...v1.1.2) (2023-03-15)
 
 
