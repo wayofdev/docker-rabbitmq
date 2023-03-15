@@ -13,6 +13,7 @@
             ],
             "datasourceTemplate": "docker",
             "depNameTemplate": "rabbitmq",
+            "versioningTemplate": "docker",
             "autoReplaceStringTemplate": "rabbitmq_version: {{{newValue}}}"
         }
     ]
