@@ -5,19 +5,6 @@
     ],
     "automerge": true,
     "platformAutomerge": true,
-    "packageRules": [
-        {
-            "matchManagers": [
-                "regex"
-            ],
-            "matchPackageNames": [
-                "rabbitmq_version"
-            ],
-            "datasourceTemplate": "docker",
-            "depNameTemplate": "rabbitmq",
-            "versioningTemplate": "docker"
-        }
-    ],
     "regexManagers": [
         {
             "fileMatch": [
@@ -25,7 +12,9 @@
             ],
             "matchStrings": [
                 "^\\s*rabbitmq_version:\\s*(?<currentValue>\\S+)"
-            ]
+            ],
+            "datasource": "docker",
+            "depName": "rabbitmq"
         }
     ]
 }
