@@ -1,0 +1,20 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "automerge": true,
+    "platformAutomerge": true,
+    "regexManagers": [
+        {
+            "fileMatch": ["^src/inventory\\.yml$"],
+            "matchStrings": [
+                "(?<depName>^\\s*rabbitmq_version)\\s*:\\s*(?<currentValue>\\S+)"
+            ],
+            "datasourceTemplate": "docker",
+            "depNameTemplate": "rabbitmq",
+            "versioningTemplate": "docker",
+            "autoReplaceStringTemplate": "{{{depName}}}: {{{newValue}}}"
+        }
+    ]
+}
