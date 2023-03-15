@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/wayofdev/docker-rabbitmq/compare/v1.1.1...v1.1.2) (2023-03-15)
+
+
+### Bug Fixes
+
+* renovate config ([5c32d4a](https://github.com/wayofdev/docker-rabbitmq/commit/5c32d4a59cb6622b592bf201944504608b473523))
+
 ## [1.1.1](https://github.com/wayofdev/docker-rabbitmq/compare/v1.1.0...v1.1.1) (2023-03-15)
 
 
