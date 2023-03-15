@@ -7,9 +7,7 @@
     "platformAutomerge": true,
     "regexManagers": [
         {
-            "fileMatch": [
-                "^./src/inventory\\.yml$"
-            ],
+            "fileMatch": ["^src/inventory\\.yml$"],
             "matchStrings": [
                 "(?<depName>^\\s*rabbitmq_version):\\s*(?<currentValue>\\S+)"
             ],
