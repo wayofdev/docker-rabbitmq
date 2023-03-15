@@ -11,7 +11,7 @@
             "matchStrings": [
                 "rabbitmq_version:\\s*(?<currentValue>[\\d.]+)"
             ],
-            "datasource": "docker",
+            "datasourceTemplate": "docker",
             "depNameTemplate": "rabbitmq",
             "versioningTemplate": "docker",
             "autoReplaceStringTemplate": "rabbitmq_version: {{{newValue}}}"
@@ -21,7 +21,7 @@
             "matchStrings": [
                 "delayed_message_exchange:\\s*(?<currentValue>[\\d.]+)"
             ],
-            "datasource": "github-releases",
+            "datasourceTemplate": "github-releases",
             "depNameTemplate": "rabbitmq/rabbitmq-delayed-message-exchange",
             "autoReplaceStringTemplate": "delayed_message_exchange: {{{newValue}}}"
         },
@@ -30,7 +30,7 @@
             "matchStrings": [
                 "message_timestamp:\\s*(?<currentValue>[\\d.]+)"
             ],
-            "datasource": "github-releases",
+            "datasourceTemplate": "github-releases",
             "depNameTemplate": "rabbitmq/rabbitmq-message-timestamp",
             "autoReplaceStringTemplate": "message_timestamp: {{{newValue}}}"
         }
