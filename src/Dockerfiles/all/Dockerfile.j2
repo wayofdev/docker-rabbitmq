@@ -24,17 +24,17 @@ RUN set -eux; \
       curl \
       unzip \
 {% if true == ext_delayed_message_exchange %}
-    && curl -L -o ./rabbitmq_delayed_message_exchange.zip "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/download/{{ ext_versions.delayed_message_exchange }}/rabbitmq_delayed_message_exchange-{{ ext_versions.delayed_message_exchange }}.ez" \
+    && curl -L -o ./rabbitmq_delayed_message_exchange.zip "https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/download/3.11.1/rabbitmq_delayed_message_exchange-3.11.1.ez" \
         && unzip rabbitmq_delayed_message_exchange.zip \
         && rm -f rabbitmq_delayed_message_exchange.zip \
-        && mv rabbitmq_delayed_message_exchange-{{ ext_versions.delayed_message_exchange }} plugins/ \
+        && mv rabbitmq_delayed_message_exchange-3.11.1 plugins/ \
         && rabbitmq-plugins enable rabbitmq_delayed_message_exchange \
 {% endif %}
 {% if true == ext_message_timestamp %}
-    && curl -L -o ./rabbitmq_message_timestamp.zip "https://github.com/rabbitmq/rabbitmq-message-timestamp/releases/download/v{{ ext_versions.message_timestamp }}/rabbitmq_message_timestamp-{{ ext_versions.message_timestamp }}.ez" \
+    && curl -L -o ./rabbitmq_message_timestamp.zip "https://github.com/rabbitmq/rabbitmq-message-timestamp/releases/download/v3.11.1/rabbitmq_message_timestamp-3.11.1.ez" \
         && unzip rabbitmq_message_timestamp.zip \
         && rm -f rabbitmq_message_timestamp.zip \
-        && mv rabbitmq_message_timestamp-{{ ext_versions.message_timestamp }} plugins/ \
+        && mv rabbitmq_message_timestamp-3.11.1 plugins/ \
         && rabbitmq-plugins enable rabbitmq_message_timestamp \
 {% endif %}
 {% if 'management-alpine' == rabbitmq_image_type %}
