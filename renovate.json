@@ -11,9 +11,8 @@
                 "^src/inventory\\.yml$"
             ],
             "matchStrings": [
-                "^\\s*rabbitmq_version:\\s*(?<currentValue>\\S+)"
+                "(?<depName>^\\s*rabbitmq_version):\\s*(?<currentValue>\\S+)"
             ],
-            "depNameTemplate": "rabbitmq",
             "datasourceTemplate": "docker"
         }
     ]
