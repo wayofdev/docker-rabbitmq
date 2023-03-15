@@ -13,8 +13,8 @@
             "matchStrings": [
                 "^\\s*rabbitmq_version:\\s*(?<currentValue>\\S+)"
             ],
-            "depNameTemplate": "docker",
-            "datasourceTemplate": "rabbitmq"
+            "depNameTemplate": "rabbitmq",
+            "datasourceTemplate": "docker"
         }
     ]
 }
