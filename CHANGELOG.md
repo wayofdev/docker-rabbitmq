@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/wayofdev/docker-rabbitmq/compare/v1.3.0...v1.4.0) (2023-03-15)
+
+
+### Features
+
+* add more deps ([#30](https://github.com/wayofdev/docker-rabbitmq/issues/30)) ([9b4e56f](https://github.com/wayofdev/docker-rabbitmq/commit/9b4e56ff6a2a9f8637cf10f5fc970829d7433266))
+
 ## [1.3.0](https://github.com/wayofdev/docker-rabbitmq/compare/v1.2.0...v1.3.0) (2023-03-15)
 
 
