@@ -9,7 +9,7 @@
         {
             "fileMatch": ["^src/inventory\\.yml$"],
             "matchStrings": [
-                "(?<depName>^\\s*rabbitmq_version):\\s*(?<currentValue>\\S+)"
+                "(?<depName>^\\s*rabbitmq_version)\\s*:\\s*(?<currentValue>\\S+)"
             ],
             "datasourceTemplate": "docker",
             "depNameTemplate": "rabbitmq",
