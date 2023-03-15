@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.1](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.0...v1.4.1) (2023-03-15)
+
+
+### Bug Fixes
+
+* manual versions bump ([#32](https://github.com/wayofdev/docker-rabbitmq/issues/32)) ([814b7ba](https://github.com/wayofdev/docker-rabbitmq/commit/814b7bac5f919ca90c6af668a0bab7e4de92d3db))
+
+
+### Miscellaneous
+
+* **deps:** update rabbitmq docker tag to v3.11.10 ([f6480f0](https://github.com/wayofdev/docker-rabbitmq/commit/f6480f023d43858d1edb069a4be787172ef1c462))
+
 ## [1.4.0](https://github.com/wayofdev/docker-rabbitmq/compare/v1.3.0...v1.4.0) (2023-03-15)
 
 
