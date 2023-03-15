@@ -8,7 +8,7 @@
     "regexManagers": [
         {
             "fileMatch": [
-                "^src/inventory\\.yml$"
+                "inventory.yml$"
             ],
             "matchStrings": [
                 "(?<depName>^\\s*rabbitmq_version):\\s*(?<currentValue>\\S+)"
