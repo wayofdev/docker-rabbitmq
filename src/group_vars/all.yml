@@ -43,7 +43,7 @@ ext_amqp1_0: true
 ext_shovel: true
 
 ext_versions:
-  delayed_message_exchange: 3.10.0
+  delayed_message_exchange: 3.11.1
   message_timestamp: 3.10.0
 
 ...
