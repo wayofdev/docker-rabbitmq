@@ -9,12 +9,11 @@
         {
             "fileMatch": ["^src/inventory\\.yml$"],
             "matchStrings": [
-                "(?<depName>^\\s*rabbitmq_version)\\s*:\\s*(?<currentValue>\\S+)"
+                "rabbitmq_version:\\s*(?<currentValue>[\\d.]+)"
             ],
             "datasourceTemplate": "docker",
             "depNameTemplate": "rabbitmq",
-            "versioningTemplate": "docker",
-            "autoReplaceStringTemplate": "{{{depName}}}: {{{newValue}}}"
+            "autoReplaceStringTemplate": "rabbitmq_version: {{{newValue}}}"
         }
     ]
 }
