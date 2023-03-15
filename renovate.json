@@ -11,10 +11,28 @@
             "matchStrings": [
                 "rabbitmq_version:\\s*(?<currentValue>[\\d.]+)"
             ],
-            "datasourceTemplate": "docker",
+            "datasource": "docker",
             "depNameTemplate": "rabbitmq",
             "versioningTemplate": "docker",
             "autoReplaceStringTemplate": "rabbitmq_version: {{{newValue}}}"
+        },
+        {
+            "fileMatch": ["^src/group_vars/all\\.yml$"],
+            "matchStrings": [
+                "delayed_message_exchange:\\s*(?<currentValue>[\\d.]+)"
+            ],
+            "datasource": "github-releases",
+            "depNameTemplate": "rabbitmq/rabbitmq-delayed-message-exchange",
+            "autoReplaceStringTemplate": "delayed_message_exchange: {{{newValue}}}"
+        },
+        {
+            "fileMatch": ["^src/group_vars/all\\.yml$"],
+            "matchStrings": [
+                "message_timestamp:\\s*(?<currentValue>[\\d.]+)"
+            ],
+            "datasource": "github-releases",
+            "depNameTemplate": "rabbitmq/rabbitmq-message-timestamp",
+            "autoReplaceStringTemplate": "message_timestamp: {{{newValue}}}"
         }
     ]
 }
