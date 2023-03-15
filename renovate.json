@@ -8,12 +8,15 @@
     "regexManagers": [
         {
             "fileMatch": [
-                "inventory.yml$"
+                "^./src/inventory\\.yml$"
             ],
             "matchStrings": [
                 "(?<depName>^\\s*rabbitmq_version):\\s*(?<currentValue>\\S+)"
             ],
-            "datasourceTemplate": "docker"
+            "datasourceTemplate": "docker",
+            "depNameTemplate": "rabbitmq",
+            "versioningTemplate": "docker",
+            "autoReplaceStringTemplate": "{{{depName}}}: {{{newValue}}}"
         }
     ]
 }
