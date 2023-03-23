@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.2...v1.4.3) (2023-03-23)
+
+
+### Miscellaneous
+
+* **deps:** update peter-evans/enable-pull-request-automerge action to v3 ([a8003a3](https://github.com/wayofdev/docker-rabbitmq/commit/a8003a37975a229bc865381256089cb90b888630))
+
 ## [1.4.2](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.1...v1.4.2) (2023-03-21)
 
 
