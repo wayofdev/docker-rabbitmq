@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.3...v1.4.4) (2023-04-04)
+
+
+### Miscellaneous
+
+* **deps:** update rabbitmq docker tag to v3.11.13 ([2c8add2](https://github.com/wayofdev/docker-rabbitmq/commit/2c8add28ad8cb08d60b7ea0df287ec59ec9d667e))
+
 ## [1.4.3](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.2...v1.4.3) (2023-03-23)
 
 
