@@ -6,12 +6,12 @@ all:
       hosts:
         alpine-management:
           ansible_connection: local
-          rabbitmq_version: 3.11.13
+          rabbitmq_version: 3.11.14
           rabbitmq_image_type: management-alpine
           os_name: alpine
         alpine:
           ansible_connection: local
-          rabbitmq_version: 3.11.13
+          rabbitmq_version: 3.11.14
           rabbitmq_image_type: alpine
           os_name: alpine
 
