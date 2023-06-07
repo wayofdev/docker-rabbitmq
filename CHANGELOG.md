@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.8](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.7...v1.4.8) (2023-06-07)
+
+
+### Miscellaneous
+
+* **deps:** update docker/setup-qemu-action action to v2.2.0 ([970ea88](https://github.com/wayofdev/docker-rabbitmq/commit/970ea88c13812301fed40acae11bfb6a747a6354))
+
 ## [1.4.7](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.6...v1.4.7) (2023-05-31)
 
 
