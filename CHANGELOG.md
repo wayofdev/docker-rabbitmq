@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.9](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.8...v1.4.9) (2023-09-04)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v4 ([324c58c](https://github.com/wayofdev/docker-rabbitmq/commit/324c58c9f292b49396f8091f488f9abeb719832b))
+
 ## [1.4.8](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.7...v1.4.8) (2023-06-07)
 
 
