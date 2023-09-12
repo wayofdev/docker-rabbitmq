@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.12](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.11...v1.4.12) (2023-09-12)
+
+
+### Miscellaneous
+
+* **deps:** update docker/login-action action to v3 ([f7a2445](https://github.com/wayofdev/docker-rabbitmq/commit/f7a24450b0d35a802d1c22f71f62b7aa56272e26))
+
 ## [1.4.11](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.10...v1.4.11) (2023-09-12)
 
 
