@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.13](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.12...v1.4.13) (2023-09-12)
+
+
+### Miscellaneous
+
+* **deps:** update docker/setup-buildx-action action to v3 ([4256bb5](https://github.com/wayofdev/docker-rabbitmq/commit/4256bb50637158360d5b665301d6a7bc9c7c293e))
+
 ## [1.4.12](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.11...v1.4.12) (2023-09-12)
 
 
