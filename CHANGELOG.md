@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.10](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.9...v1.4.10) (2023-09-12)
+
+
+### Miscellaneous
+
+* **deps:** update docker/metadata-action action to v5 ([840d8cd](https://github.com/wayofdev/docker-rabbitmq/commit/840d8cdfeebcd1d8f4b9ea86d599ecf650135d8b))
+
 ## [1.4.9](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.8...v1.4.9) (2023-09-04)
 
 
