@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.14](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.13...v1.4.14) (2023-09-12)
+
+
+### Miscellaneous
+
+* **deps:** update docker/setup-qemu-action action to v3 ([56d63ea](https://github.com/wayofdev/docker-rabbitmq/commit/56d63ea100e87c17945939254765b1140770f6b6))
+
 ## [1.4.13](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.12...v1.4.13) (2023-09-12)
 
 
