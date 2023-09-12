@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.11](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.10...v1.4.11) (2023-09-12)
+
+
+### Miscellaneous
+
+* **deps:** update docker/build-push-action action to v5 ([d48f59f](https://github.com/wayofdev/docker-rabbitmq/commit/d48f59f76fa3061302c496311474648f50a24ef9))
+
 ## [1.4.10](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.9...v1.4.10) (2023-09-12)
 
 
