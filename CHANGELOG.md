@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.15](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.14...v1.4.15) (2023-10-03)
+
+
+### Miscellaneous
+
+* **deps:** update redhat-plumbers-in-action/differential-shellcheck action to v5 ([62d1ff7](https://github.com/wayofdev/docker-rabbitmq/commit/62d1ff75e0d66186150373ac8d3bb758fb6ee05e))
+
 ## [1.4.14](https://github.com/wayofdev/docker-rabbitmq/compare/v1.4.13...v1.4.14) (2023-09-12)
 
 
