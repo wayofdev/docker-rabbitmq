@@ -44,6 +44,6 @@ ext_shovel: true
 
 ext_versions:
   delayed_message_exchange: 3.11.1
-  message_timestamp: 3.11.1
+  message_timestamp: 3.11.2
 
 ...
